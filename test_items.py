@@ -14,4 +14,4 @@ def test_existence_of_add_to_cart_button(browser, lang):
     browser.get(locale_link)
     time.sleep(10)
 
-    assert browser.find_element(By.CLASS_NAME, "btn-primary"), "HEHEHEHEHHEHEHEHEHE"
+    assert browser.find_element(By.CLASS_NAME, "btn-primary"), "add to cart button not found"
